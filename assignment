@@ -1,0 +1,96 @@
+'''def sum():
+    sum=1
+    sample=(8,2,3,-1,7)
+    for i in sample:
+        sum=sum*i
+    return sum
+f=sum()
+print(f)'''
+
+
+
+
+
+'''def reverse():
+    rev=''
+    for i in sample:
+        rev=i+rev
+    return rev
+sample=input("Enter string:")
+f=reverse()
+print(f)'''
+
+
+
+'''def fact(n):
+    fac=1
+    for i in range(1,n+1):
+        fac=fac*i
+    print(fac)
+n=int(input("Enter a number:"))
+fact(n)'''
+
+
+
+'''
+def string():
+    upper=0
+    lower=0
+    sample=input("Enter a string:")
+    for i in sample:
+        if i.isupper():
+            upper=upper+1
+        elif i.islower():
+            lower=lower+1
+    print(lower,upper)
+
+string()
+'''
+
+'''
+def lis():
+    l=[1,2,3,3,3,3,4,5]
+    l1=set(l)
+    l2=list(l1)
+    print(l2)
+lis()'''
+
+
+'''def duplicate()
+l=[1,2,3,3,3,3,4,5]
+l1=[]
+for i in l:
+    if i not in l1:
+        l1.append(i)
+print(l1)
+duplicate()
+'''
+
+'''def even()
+l=[]
+l=[1,2,3,4,5,6,7,8,9]
+for i in l:
+    if i%2==0:
+        l.append(i)
+print(l1)
+even()'''
+
+'''def hypthens():
+    
+
+n=input("Enter a string:")
+lis=list(n.split(' '))
+n1='-'.join(lis)
+print(n1)
+hypthens()'''
+
+
+
+'''def sq(n):
+    l=[]
+    for i in range(1,n+1):
+        v=i*i
+        l.append(v)
+    print(l)
+
+sq(30)'''
